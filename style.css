@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+@media (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 34vw;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .header {
+        width: 100%;
+        height: 4vw;
+        background: #FFDC40;
+        border-top-left-radius: 0.9vw;
+        border-top-right-radius: 0.9vw;
+    }
+
+    .mainText {
+        margin-top: 4vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4vw;
+        line-height: 2.6vw;
+        text-align: center;
+        color: black;
+        margin-bottom: 2vw;
+    }
+
+    .button1 {
+        margin-left: 20vw;
+        width: 1.73vw;
+        height: 1.73vw;
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+
+    .button1 img {
+        margin-right: 21.5vw;
+        width: 1.5vw;
+        height: 1.2vw;
+    }
+
+
+    .divFourth {
+        padding: 0 2vw;
+        width: 21vw;
+        height: 4vw;
+        display: flex;
+    }
+
+    .button2 {
+        margin: 0.7vw 0;
+        width: 1.5vw;
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+    .button2 img:hover{
+         background-color: #833AE0; 
+         border-radius: 4vw; 
+         cursor: pointer; 
+     } 
+   
+    .input-text {
+        font-size: 2vw;
+        margin-top: 0.4vw;
+        width: 15.6vw;
+        border-radius: 0.9vw;
+    }
+
+    .addButton {
+        margin-bottom: 2vw;
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+
+    .addButton div {
+        width: 3.6vw;
+        height: 3.6vw;
+        border-radius: 50%;
+        background-color: #9953F1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plus {
+        font-size: 18px;
+        font-weight: bold;
+        align-self: center;
+        color: white;
+    }
+
+    input {
+        outline: none;
+        border: none;
+    }
+
+    .add {
+        display: flex;
+        margin-top: 2.5vw;
+        border-radius: 6vw;
+        background-color: #833AE0;
+        width: 13vw;
+        height: 3.6vw;
+        color: white;
+        border: none;
+        outline: none;
+        align-items: center;
+    }
+
+    span {
+        margin-left: 2.5vw;
+    }
+
+    .toList {
+        display: flex;
+    }
+
+    li {
+        font-size: 2vw;
+        font-family: Roboto;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+        margin: 0.2vw 0;
+    }
+
+    .list-main {
+        width: 22vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 0.9vw;
+    }
+
+    .list_ul {   
+        overflow-y: hidden;
+        display: none;
+        flex-direction: column;
+        width: 21vw;
+        padding: 0.4vw 0;
+    }
+
+    .list_ul::-webkit-scrollbar {
+        width: 0.5vw;
+    }
+
+    .list_ul::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb:active {
+        background: rgba(0, 0, 0, .9);
+    }
+
+    .button3 {
+        width: 1.5vw;
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .sort {
+        margin: 0.4vw 0;
+        padding-left: 18vw;
+        border: none;
+        background: none;
+    }
+
+    .sortDesc {
+        display: none;
+    }
+
+    .button3 img {
+        width: 2.4vw;
+    }
+
+    .button2 img {
+        width: 2.4vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 54vw;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .header {
+        width: 100%;
+        height: 6vw;
+        background: #FFDC40;
+        border-top-left-radius: 0.9vw;
+        border-top-right-radius: 0.9vw;
+    }
+
+    .mainText {
+        margin-top: 6vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6vw;
+        line-height: 2.6vw;
+        text-align: center;
+        color: black;
+        margin-bottom: 4vw;
+    }
+
+    .button1 {
+        margin-left: 20vw;
+        width: 1.73vw;
+        height: 1.73vw;
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+
+    .button1 img {
+        margin-right: 21.5vw;
+        width: 1.5vw;
+        height: 1.2vw;
+    }
+
+
+    .divFourth {
+        padding: 0 1vw;
+        margin: 1vw;
+        display: flex;
+    }
+
+    .button2 img {
+        width: 4vw;
+    }
+
+    .button2 {
+        margin: 0.7vw 0;
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+
+    .input-text {
+        font-size: 3vw;
+        width: 26vw;
+        border-radius: 0.9vw;
+    }
+
+    .addButton {
+        margin-bottom: 2vw;
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+
+    .sortAsc {
+        width: 6vw;
+    }
+
+    .addButton div {
+        width: 6vw;
+        height: 6vw;
+        border-radius: 50%;
+        background-color: #9953F1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plus {
+        font-size: 3vw;
+
+        font-weight: bold;
+        align-self: center;
+        color: white;
+    }
+
+    input {
+        outline: none;
+        border: none;
+    }
+
+    .add {
+        display: flex;
+        margin-top: 4.5vw;
+        padding: 3vw 0;
+        border-radius: 6vw;
+        background-color: #833AE0;
+        width: 23vw;
+        font-size: 3vw;
+        height: 3.6vw;
+        color: white;
+        border: none;
+        outline: none;
+        align-items: center;
+    }
+
+    span {
+        margin-left: 2.5vw;
+    }
+
+    .toList {
+        display: flex;
+    }
+    ul {
+        overflow: scroll;
+    }
+    li {
+        font-family: Roboto;
+        font-size: 3vw;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+    }
+
+    .list-main {
+        width: 36vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 0.9vw;
+    }
+
+    .list_ul {
+        overflow-y: hidden;
+        overflow-x: hidden;
+        display: none;
+        flex-direction: column;
+        width: 34vw;
+        padding: 0.4vw 0;
+    }
+
+    .list_ul::-webkit-scrollbar {
+        width: 0.5vw;
+    }
+
+    .list_ul::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .list_ul::-webkit-scrollbar-thumb:active {
+        background: rgba(0, 0, 0, .9);
+    }
+
+    .button3 {
+        border: none;
+        background: none;
+        outline: none;
+
+    }
+
+    .button3 img {
+        width: 4vw;
+    }
+
+    .sort {
+        margin-bottom: 2vw;
+        padding-left: 24vw;
+        border: none;
+        background: none;
+    }
+
+    .sortDesc {
+        display: none;
+        width: 6vw;
+    }
+    .button2 img:hover{
+        background-color: #833AE0; 
+        border-radius: 4vw; 
+        cursor: pointer; 
+    } 
+    
+}

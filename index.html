@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>list</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+        integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header"></div>
+
+        <h2 class="mainText"> To-Do List</h2>
+
+        <button class="sort">
+            <img class="sortAsc" src="/img/sortAsc.svg">
+            <img class = "sortDesc" src="/img/sortDesc.svg">
+        </button>
+        <div class="list-main">
+            <ul class="list_ul wrapper"></ul>
+            <div class="divFourth">
+                <input class="input-text" maxlength="18" type="text" placeholder="Add something..." autofocus>
+                <button class="button3"> <img src="/img/x.svg"></button>
+            </div>
+        </div>
+        <div class="addButton">
+
+            <button class="add">
+                <div class="plus">+</div> <span>Add</span>
+            </button>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
